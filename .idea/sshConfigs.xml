@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="3.130.43.138" id="19b898e5-6d26-45c2-b0f3-a6500fe2abd1" keyPath="C:\Users\user\Desktop\Probono\smishingPrevent.ppk" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
+    </configs>
+  </component>
+</project>

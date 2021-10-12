@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="99bcc0b2-9cc4-454a-839b-bb5eb0edc693" name="smishing_prevent">
+        <fileTransfer accessType="SFTP" host="3.130.43.138" port="22" sshConfigId="19b898e5-6d26-45c2-b0f3-a6500fe2abd1" sshConfig="ubuntu@3.130.43.138:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
