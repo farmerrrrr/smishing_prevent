@@ -20,5 +20,6 @@ from django.contrib import admin
 
 urlpatterns = [
     path('smishing/', include('smishing.urls')),
+    path('smishing_nlp/', include('smishing_nlp.urls')),
     path('admin/', admin.site.urls),
 ]

@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'smishing.apps.SmishingConfig',
-    'smishing_nlp.apps.SmishingNlpConfig'
+    'smishing_nlp.apps.SmishingNlpConfig',
     'rest_framework'
 ]
 
