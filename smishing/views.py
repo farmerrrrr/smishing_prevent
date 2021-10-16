@@ -11,6 +11,7 @@ class MemberViewSet(viewsets.ModelViewSet):
     queryset = Member.objects.all()
     serializer_class = MemberSerializer
 
+
 def member_register(request):
 
     if request.method == 'POST':
@@ -22,4 +23,5 @@ def member_register(request):
             serializer.save()
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)
+
 

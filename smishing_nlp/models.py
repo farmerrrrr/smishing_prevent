@@ -13,5 +13,3 @@ class Message(models.Model):
         return self.sender
 
 
-
-
