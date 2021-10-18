@@ -11,13 +11,15 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # import pymysql
 # pymysql.version_info=(1, 4, 2, 'final', 0)
 # pymysql.install_as_MySQLdb()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -26,13 +28,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k=_wr(yknfpnq8#()w^2hwvl*2m37afs99b7m=ib%9%@-+_*0n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # 앱에 접근할 수 있는 권한을 모든 사용자로 정의
 ALLOWED_HOSTS = ["*", "3.130.43.138", "smishingprevent.cqleomzfolos.us-east-2.rds.amazonaws.com"]
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
