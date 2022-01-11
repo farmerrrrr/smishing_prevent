@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:contentDescription="홈"
+        android:id="@+id/first_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/home_hover"
+        android:checked="true"
+        android:title="홈"
+        />
+    <item
+        android:contentDescription="영상"
+        android:id="@+id/second_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/youtube_btn"
+        android:title="영상"
+        android:checked="false"
+        />
+
+    <item
+        android:contentDescription="설정"
+        android:id="@+id/third_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/setting_btn"
+        android:title="설정"
+        >
+    </item>
+    <item
+        android:contentDescription="이용안내"
+        android:id="@+id/forth_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/information_btn"
+        android:title="이용안내"
+        >
+    </item>
+
+
+
+</menu>

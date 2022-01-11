@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:paddingHorizontal="15dp">
+
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnback"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Setting_Category"
+        android:text="URL 알림 설정"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_height="5px"
+        android:background="#fc5230"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="50dp"
+            android:text="설정하기" />
+
+
+    </LinearLayout>
+</LinearLayout>

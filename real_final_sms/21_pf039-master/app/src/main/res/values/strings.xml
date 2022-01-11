@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">스미싱 꼼짝마</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="홈"> <font size="20">홈</font></string>
+    <string name="영상"> <font size="20">　영상 </font></string>
+    <string name="설정"> <font size="20">　설정 </font></string>
+</resources>
